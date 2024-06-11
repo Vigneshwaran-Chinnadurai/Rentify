@@ -1,0 +1,92 @@
+
+fieldset {
+  border: 2px lightblue solid;
+  width: 46%;
+  border-radius: 20px;
+  background-color: lightblue;
+  margin-top: 30px;
+}
+div.content {
+  align-content: center;
+  padding-left: 34.1%;
+}
+#table {
+  width: fit-content;
+  margin-left: 10px;
+}
+body {
+  background-color: rgb(141, 147, 180);
+}
+.input {
+  width: 300px;
+  height: 45px;
+  border-radius: 15px;
+  border: 2px white solid;
+  padding-left: 60px;
+  font-size: 13px;
+  margin-top: 20px;
+}
+#cancel {
+  width: 100px;
+  height: 42px;
+  margin-left: 20px;
+  border-radius: 13px;
+  border: 2px teal solid;
+  font-size: 20px;
+  color: white;
+  background-color: teal;
+}
+#create {
+  width: 100px;
+  height: 42px;
+  margin-left: 9px;
+  border-radius: 13px;
+  border: 2px teal solid;
+  font-size: 20px;
+  color: white;
+  background-color: teal;
+}
+#photouser {
+  position: absolute;
+  margin-left: 190px;
+}
+h4 {
+  margin-top: 37px;
+  font-size: 27px;
+  color:brown;
+}
+#name {
+  font-size: large;
+  text-align: center;
+}
+#userlogo1 {
+  margin-top: 266px;
+  margin-left: 30px;
+  position: absolute;
+}
+#u1 {
+  position: absolute;
+  margin-top: 40px;
+  margin-left: 30px;
+}
+#u2 {
+  position: absolute;
+  margin-top: 115px;
+  margin-left: 30px;
+}
+#mail {
+  position: absolute;
+  margin-top: 190px;
+  margin-left: 30px;
+}
+#cancel:hover {
+  border: 2px darksalmon solid;
+  font-size: large;
+  color: black;
+}
+
+#create:hover {
+  border: 2px darksalmon solid;
+  font-size: large;
+  color: black;
+}

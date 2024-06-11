@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home Seller Page</title>
+
+  <link rel="stylesheet" href="/CSS/Home Seller Page.css">
+
+  <script src="/JavaScript/Home Seller Page.js"></script>
+  
+   <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+</head>
+<body>
+  <h4 style="text-align: center;">Home Property Management</h4>
+  <fieldset>
+    <form id="propertyForm">
+
+        <label for="place">Place:</label>
+        <input type="text" id="place" required><br>
+        <label for="area">Area:</label>
+        <input type="text" id="area" required><br>
+        <label for="bedrooms">Bedrooms:</label>
+        <input type="number" id="bedrooms" required><br>
+        <label for="bathrooms">Bathrooms:</label>
+        <input type="number" id="bathrooms" required><br>
+        <label for="nearby">Nearby:</label>
+        <input type="text" id="nearby"><br>
+
+        <button type="submit">Post Property</button>
+        <!-- <a href="/HTML/Rentify Home Page.html"><button id="cancel">Back</button></a> -->
+  </form>
+  </fieldset>
+ 
+  <div id="propertyList"></div>
+
+</body>
+</html>

@@ -1,0 +1,118 @@
+fieldset {
+  border: 2px lightblue solid;
+  width: fit-content;
+  border-radius: 20px;
+  background-color: lightblue;
+  padding-top: 12px;
+}
+div.content {
+  align-content: center;
+  padding-left: 342px;
+}
+#table {
+  width: 1318px;
+}
+h2{
+    padding-left: 85px;
+}
+h4 {
+  text-align: left;
+  font-weight: 500;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-style: inherit;
+  padding-top: 10px;
+  padding-left: 265px;
+}
+#homeseller {
+  height: 240px;
+  width: 280px;
+  border-radius: 19px;
+  border: 4px lightblue solid;
+}
+#homebuyer {
+  height: 240px;
+  width: 280px;
+  border-radius: 19px;
+  margin-left: 65px;
+   border: 4px lightblue solid;
+}
+#homeseller:hover {
+  height: 240px;
+  width: 280px;
+  border: 4px black solid;
+  transform: scale(1.1);
+}
+#homebuyer:hover {
+  height: 240px;
+  width: 280px;
+   border: 4px black solid;
+   transform: scale(1.1);
+}
+
+body {
+  background-color: rgb(141, 147, 180);
+}
+#font1 {
+  position: absolute;
+  margin-right: 50px;
+}
+#font2 {
+  position: absolute;
+  margin-right: 50px;
+}
+#homebutton1 {
+  width: 200px;
+  height: 47px;
+  margin-left: 33px;
+  border-radius: 18px;
+  border: 3px brown solid;
+  font-size: 20px;
+  color: white;
+  background-color: teal;
+  padding-right: 6px;
+  border: 3px teal solid;
+}
+#homebutton2 {
+  width: 200px;
+  height: 47px;
+  margin-left: 160px;
+  margin-top: 14px;
+  border-radius: 18px;
+  border: 3px brown solid;
+  font-size: 20px;
+  color: white;
+  background-color: teal;
+  padding-right: 6px;
+  border: 3px teal solid;
+}
+#homebutton1:hover {
+  border: 3px black solid;
+  font-size: large;
+  color: black;
+  transform: scale(1.1);
+}
+#homebutton2:hover {
+  border: 3px black solid;
+  font-size: large;
+  color: black;
+  transform: scale(1.1);
+}
+#contact {
+  padding-left: 2px;
+  text-align: center;
+}
+#about{
+  text-align: end;
+}
+#logout {
+  padding-left: 2px;
+  text-align: left;
+}
+#line {
+  text-decoration: none;
+}
+#line:hover {
+  text-decoration: underline;
+  color: black;
+  transition: 0s;
+}
