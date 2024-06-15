@@ -4,7 +4,7 @@ Real Estate Application
 
        This is a basic real estate application that allows users to register as either sellers or buyers. Sellers can post properties for sale, while buyers can view and express interest in properties.
 
-    Features :
+    Features:
 
        User Registration:
      
